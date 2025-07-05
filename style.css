@@ -1,6 +1,12 @@
+html{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+}
+
+
 *{
     margin: 0;
     padding: 0;
+    
 }
 .h-cpntainer{
     max-width: 1540px;
@@ -52,19 +58,24 @@
 }
 .second-part h2{
     padding-top: 10px;
+    
 }
 .second-part-des{
     text-align: center;
     margin-top: 50px;
 }
-.second-part-des h4{
-    margin-bottom: 5px;
+.second-part-des h2{
+    margin-bottom: 35px;
+    text-decoration: underline;
+    font-style: italic;
     
 }
 .second-part-des p{
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: larger;
+    
     /* font-weight: 600px; */
 }
 .button-div{
@@ -122,8 +133,11 @@ button:hover{
 .view-place{
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    
 }
+
 .img-slide{
     display: flex;
     /* margin:0 auto; */
