@@ -188,18 +188,17 @@ button:hover{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    
-    
-   
-  
+    gap: 100px;
+
 }
-.ol-list ol li{
-    /* margin-right: 80px;
-    margin-bottom: 50px; */
-    padding-bottom: 10px;
-    
+.ol-list, .ul-list{
+    text-align: left;
 }
-.ul-list ul li{
-    margin-left: 80px;
+
+
+
+.ol-list ol li,
+.ul-list ul li {
     padding-bottom: 10px;
+    font-size: 18px;
 }
