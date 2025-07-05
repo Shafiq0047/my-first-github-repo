@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.h-cpntainer{
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.sec-container{
+    max-width: 1540px;
+    margin: 0 auto;
+}
 .header-img{
     position: relative;
     width: 100%;
@@ -15,23 +24,151 @@
 .text-overlay{
     position:absolute;
     top: 50%;
+    left: 50%;
+
     color: white;
     text-align: center;
+    transform: translate(-50%, -50%);
 
+}
+.text-overlay h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.text-overlay p{
+    margin-top: 10px;
+    font-size: 15px;
 }
 .second-part{
     background-color: blue;
     margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     text-align: center;
     color: white;
     height: 50px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .second-part h2{
     padding-top: 10px;
 }
 .second-part-des{
+    text-align: center;
+    margin-top: 50px;
+}
+.second-part-des h4{
+    margin-bottom: 5px;
     
+}
+.second-part-des p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* font-weight: 600px; */
+}
+.button-div{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 08px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     transition: all ease-in-out .4s;
+     border: none;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.5);
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow: hidden;
+}
+.card-header{
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.card-body{
+    padding: 15px;
+    text-align: justify;
+    font-size: 15px;
+}
+.view-place{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.img-slide{
+    display: flex;
+    /* margin:0 auto; */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.img-slide img{
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow: hidden;
+    
+}
+.footer-container{
+     max-width: 1540px;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center; */
+}
+.footer-container h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: blue;
+    margin-top: 30px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    text-align: center;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding-top: 15px;
+}
+.list-container{
+    max-width: 1540px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    /* left: 50%; */
+  
+}
+.ol-list ol li{
+    /* margin-right: 80px;
+    margin-bottom: 50px; */
+    padding-bottom: 10px;
+    
+}
+.ul-list ul li{
+    margin-left: 80px;
+    padding-bottom: 10px;
 }
